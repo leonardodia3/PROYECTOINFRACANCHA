@@ -1,0 +1,29 @@
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.tfplan
+.terraform.tfstate.lock.info
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# Sistema
+.DS_Store
+Thumbs.db
